@@ -24,13 +24,13 @@ namespace CretaceousClient.Controllers
 
         public ActionResult Details(int id)
         {
-            var animal = Animal.GetDetails(id);
+            Animal animal = Animal.GetDetails(id);
             return View(animal);
         }
 
         public ActionResult Edit(int id)
         {
-            var animal = Animal.GetDetails(id);
+            Animal animal = Animal.GetDetails(id);
             return View(animal);
         }
 
